@@ -5,13 +5,17 @@
 
 int main(int argc, char *argv[])
 {
-	char c;
+	float a;
+	float b;
 	
-	printf("enter a character:");
-	scanf("%c", &c);
+	printf("분자를 입력하세요 :");
+	scanf("%f", &a);
 	
-	printf("The next character of %c(%d) is %c(%d)", c, c, c+1, c+1);
+	printf("분모를 입력하세요 :");
+	scanf("%f", &b);
 	
+	printf("나누기의 결과는 %f\n 입니다.", a/b);
+	 
 	system("PAUSE");
 	return 0;
 }
